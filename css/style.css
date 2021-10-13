@@ -63,6 +63,11 @@ img {
     color: white;
 }
 
+.btn-purple {
+    background-color: #8ea1e1;
+    color: white;
+}
+
 /* HEADER */
 header {
     background-color: #255ee9;
@@ -162,6 +167,15 @@ main section {
     text-align: center;
 }
 
+.stars {
+    text-align: center;
+}
+
+.stars h4 {
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
 
 
 
