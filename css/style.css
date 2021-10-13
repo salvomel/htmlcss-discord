@@ -102,7 +102,6 @@ nav {
 
 .login {
     text-align: right;
-    color: black;
 }
 
 /* MAIN */
@@ -127,6 +126,34 @@ nav {
 .buttons {
     margin-top: 30px;
 }
+
+/* Sections */
+main section {
+    padding: 40px 0;
+}
+
+.description .col-img {
+    width: 60%;
+    padding: 40px 0;
+}
+
+.description .col-text {
+    width: 40%;
+    padding: 70px 50px;
+    color: #23272a;
+    
+}
+
+.sub {
+    font-size: 45px;
+    color: #23272a;
+    line-height: 1.3;
+}
+
+.par {
+    margin-top: 30px;
+}
+
 
 
 
