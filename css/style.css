@@ -151,10 +151,15 @@ main section {
 
 .par {
     margin-top: 30px;
+    color: #23272a;
 }
 
 .grey {
     background-color: #f6f6f6;
+}
+
+.bottom-text {
+    text-align: center;
 }
 
 
