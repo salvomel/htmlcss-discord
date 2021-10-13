@@ -29,13 +29,26 @@ img {
     width: 100%;
 }
 
+.btn-small {
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 40px;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.btn-white {
+    background-color: white;
+}
+
 /* HEADER */
 header {
     background-color: #3161e0;
 }
 
 nav {
-    line-height: 50px;
+    line-height: 80px;
 }
 
 .logo, .login {
@@ -66,10 +79,11 @@ nav {
     color: white;
 }
 
-.login a {
-    color: white;
-    text-decoration: none;
+.login {
+    text-align: right;
+    color: black;
 }
+
 
 
 
