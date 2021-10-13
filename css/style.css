@@ -9,3 +9,67 @@
 body {
     font-family: "Witney", sans-serif;
 }
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.col {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    width: 100%;
+}
+
+/* HEADER */
+header {
+    background-color: #3161e0;
+}
+
+nav {
+    line-height: 50px;
+}
+
+.logo, .login {
+    width: 10%;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+/* Menu */
+.central-menu {
+    width: 80%;
+    text-align: center;
+}
+
+.top-menu {
+    list-style-type: none;
+}
+
+.top-menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.top-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.login a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
