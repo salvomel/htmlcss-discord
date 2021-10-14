@@ -68,6 +68,10 @@ img {
     color: white;
 }
 
+.wave {
+    color: #f6f6f6;
+}
+
 /* HEADER */
 header {
     background-color: #255ee9;
@@ -175,9 +179,12 @@ main section {
     font-size: 30px;
     margin-top: 40px;
     margin-bottom: 30px;
+   
 }
 
-
+.wave svg {
+    display: block;
+}
 
 
 
