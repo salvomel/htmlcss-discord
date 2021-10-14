@@ -89,6 +89,10 @@ nav {
     vertical-align: middle;
 }
 
+.logo-img {
+    width: 105px;
+}
+
 /* Menu */
 .central-menu {
     width: 80%;
@@ -177,14 +181,90 @@ main section {
 
 .stars h4 {
     font-size: 30px;
-    margin-top: 40px;
-    margin-bottom: 30px;
-   
+    background-image: url("../img/stars.svg");
+    background-repeat: no-repeat;
+    background-position: contain;
+    width: 50%;
+    margin: auto;
+    padding: 30px 0;
 }
 
 .wave svg {
     display: block;
 }
+
+/* FOOTER */
+footer {
+    padding: 90px 0;
+    background-color: #23272a;
+    color: white;
+}
+.footer-menus {
+    border-bottom: 1px solid #7289da;
+}
+.socials {
+    width: 30%;
+}
+.footer-links {
+    width: 17.5%;
+}
+
+/* Socials */
+footer h4 {
+    font-size: 30px;
+    color: #7289da;
+}
+.languages {
+    margin: 25px 0;
+    font-size: 15px;
+}
+
+.flag {
+    width: 25px;
+    vertical-align: middle;
+}
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.social-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Single menu */
+.footer-links {
+    margin-bottom: 30px;
+}
+
+.footer-links h5 {
+    font-size: 15px;
+    color: #7289da;
+    margin-bottom: 10px;
+}
+.footer-links li {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Final footer */
+.footer-bottom {
+    margin-top: 30px;
+}
+.footer-logo,
+.register {
+    width: 50%;
+}
+.register {
+    text-align: right;
+} 
+
 
 
 
